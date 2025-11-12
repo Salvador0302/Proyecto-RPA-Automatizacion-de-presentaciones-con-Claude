@@ -1,4 +1,4 @@
-# 🎯 Proyecto RPA - Automatización de Presentaciones con IA
+﻿# 🎯 Proyecto RPA - Automatización de Presentaciones con IA
 
 Sistema automatizado de generación de presentaciones PowerPoint profesionales utilizando Inteligencia Artificial. Soporta Google Gemini (gratuito) y Anthropic Claude, con conversión de LaTeX/PDF y múltiples temas de diseño.
 
@@ -168,78 +168,6 @@ Cada tema incluye:
 - Encabezados con color específico
 - Viñetas estilizadas
 - Diseño consistente en todas las diapositivas
-
-## � Ejemplos de Uso
-
-### Generar presentación con Claude AI
-
-```python
-from claude.claude_integration import ClaudeIntegration
-
-claude = ClaudeIntegration()
-content = claude.generate_presentation_content(
-    topic="Inteligencia Artificial",
-    num_slides=5,
-    style="professional"
-)
-claude.save_to_file(content, "mi_presentacion.txt")
-```
-
-### Convertir texto a PowerPoint
-
-```python
-from scripts.text_to_pptx import TextToPptxConverter
-
-converter = TextToPptxConverter()
-converter.convert("entrada.txt", "salida.pptx")
-```
-
-### Convertir LaTeX a PowerPoint
-
-```python
-from scripts.latex_to_pptx import LatexToPptxConverter
-
-converter = LatexToPptxConverter()
-converter.convert("presentation.tex", "presentation.pptx")
-```
-
-## 📚 Ejemplos
-
-El directorio `examples/` contiene:
-- `presentation.tex`: Ejemplo de presentación en LaTeX Beamer
-- Archivos generados por los scripts de conversión
-
-## 🛠️ Tecnologías
-
-- **Python 3.7+**
-- **python-pptx**: Creación de archivos PowerPoint
-- **anthropic**: API de Claude AI
-- **python-dotenv**: Gestión de variables de entorno
-
-## 📝 Formato de Entrada
-
-### Formato de Texto
-```
-# Título Principal
-Subtítulo
-----
-# Diapositiva 2
-- Punto 1
-- Punto 2
-----
-# Conclusión
-Texto final
-```
-
-### LaTeX Beamer
-```latex
-\begin{frame}{Título}
-    \begin{itemize}
-        \item Punto 1
-        \item Punto 2
-    \end{itemize}
-\end{frame}
-```
 
 ## 🤝 Contribuciones
 
