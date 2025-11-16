@@ -18,7 +18,7 @@ Sistema automatizado de generación de presentaciones PowerPoint profesionales u
 ##  Estructura del Proyecto
 
 ```
-Proyecto-RPA-Automatizacion-de-presentaciones-con-Claude/
+Proyecto-RPA-Automatizacion-de-presentaciones-con-IA/
 ├─ gui_app.py                 # 🖥️ Interfaz gráfica principal (CustomTkinter)
 ├─ test_complete.py           # 🧪 Suite completa de pruebas
 ├─ requirements.txt           # 📦 Dependencias del proyecto
@@ -39,7 +39,7 @@ Proyecto-RPA-Automatizacion-de-presentaciones-con-Claude/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/Salvador0302/Proyecto-RPA-Automatizacion-de-presentaciones-con-Claude.git
+git clone https://github.com/Salvador0302/Proyecto-RPA-Automatizacion-de-presentaciones-con-IA.git
 cd Proyecto-RPA-Automatizacion-de-presentaciones-con-Claude
 ```
 
@@ -189,7 +189,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 🙏 Agradecimientos
 
-Agradecimiento especial al **Profesor Kelvin (Alexander) Aquino Ynga** por su guía y enseñanzas en el desarrollo de este proyecto. Su apoyo fue fundamental para convertir esta idea en realidad.
+Agradecimiento especial al **Profesor Kelvin (Alexander) Aquino Ynga** por sus enseñanzas en el desarrollo de este proyecto. 
 
 - Google Gemini por proporcionar una API gratuita de IA
 - Anthropic Claude AI por la excelente calidad de generación de contenido
